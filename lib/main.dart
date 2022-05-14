@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:sh93/screens/wrapper.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Repair());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class Repair extends StatelessWidget {
+  const Repair({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Wrapper();
   }
 }
